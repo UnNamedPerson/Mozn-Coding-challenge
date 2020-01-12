@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+    <title>Document</title>
+</head>
+
+<body id="body">
+
+    <div id="heading" style="position: relative;">
+        <h1 id="title">
+            Chart Title
+        </h1>
+    
+        <select class = "dropMenu" id = "select">
+            <option value = "All Periods">
+                All Periods 
+            </option>
+    
+        </select>
+
+    </div>
+
+    <!-- creating the three lines in the chart -->
+    <div class="lineChart">
+
+    </div>
+
+    <div class="lineChart" id="line2">
+
+    </div>
+
+    <div class="lineChart" id="line3">
+
+    </div>
+
+    
+    <div class="lineChart" id="line4">
+
+    </div>
+
+    <!-- select element with options (options are created in the js file) -->
+
+    <!-- bar chart div container -->
+    <div id = "barChart">
+
+        <!-- three lines here for the graph-->
+        <div id="line1">
+
+        </div>
+
+        <!-- chart bars -->
+        <div id="period1" class = "period " > </div>
+        <div id="period2" class = "period " > </div>
+        <div id="period3" class = "period "> </div>
+        <div id="period4" class = "period "> </div>
+        <div id="period5" class = "period " > </div>
+        <div id="period6" class = "period " > </div>
+        <div id="period7" class = "period "> </div>
+        <div id="period8" class = "period "> </div>
+        <div id="period9" class = "period "> </div>
+        <div id="period10" class = "period "> </div>
+    </div>
+
+    <!-- chart labels -->
+    <div id="labelContainter">
+        <p class="label" style="left: 1%" id="period1Text"> period 1 </p>
+        <p class="label" style="left: 14%;" id="period2Text"> period 2 </p>
+        <p class="label" style="left: 26%"  id="period3Text"> period 3 </p>
+        <p class="label" style="left: 38%;" id="period4Text"> period 4 </p>
+        <p class="label" style="left: 50%" id="period5Text"> period 5 </p>
+        <p class="label" style="left: 62%;" id="period6Text"> period 6 </p>
+        <p class="label" style="left: 74%" id="period7Text"> period 7 </p>
+        <p class="label" style="left: 86%;" id="period8Text"> period 8</p>
+        <p class="label" style="left: 98%" id="period9Text"> period 9 </p>
+        <p class="label" style="left: 110%;" id="period10Text"> period  10</p>
+    </div>
+    
+    <p style="left: 40%; padding-top: 3%; position: relative;"> periods </p>
+
+
+</body>
+</html>

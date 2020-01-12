@@ -1,0 +1,128 @@
+#title{
+    color: black;
+}
+
+/* *{box-sizing: border-box;} */
+
+.dropMenu{
+    position: absolute;
+    color: black;
+    padding: 10px;
+    min-width: 100px;
+    top: 0;
+    right: 20%;
+}
+
+#barChart{
+    position: relative;
+    min-height: 30vw;
+    max-height: 50vw;
+    min-width: 30%;
+    max-width: 70%;
+}
+
+.period{
+    position: absolute;
+    bottom: 0;
+    width: 10%;
+}
+
+#period1{
+    height: 30%; 
+    background-color: rgb(54, 174, 211); 
+}
+
+#period2{
+    height: 40%; 
+    background-color: rgb(230, 55, 137); 
+    left: 12%;
+}
+
+#period3{
+    height: 55%; 
+    background-color: rgb(230, 187, 69); 
+    left: 24%;
+}
+
+#period4{
+    height: 55%; 
+    background-color: rgb(44, 138, 138); 
+    left: 36%;
+}
+
+#period5{
+    height: 65%; 
+    background-color: rgb(59, 113, 145); 
+    left: 48%;
+}
+
+#period6{
+    height: 60%; 
+    background-color: rgb(223, 126, 47); 
+    left: 60%;
+}
+
+#period7{
+    height: 70%; 
+    background-color: rgb(136, 128, 14); 
+    left: 72%;
+}
+
+#period8{
+    height: 80%; 
+    background-color: rgb(175, 59, 113); 
+    left: 84%;
+}
+
+#period9{
+    height: 80%; 
+    background-color: rgb(243, 180, 233); 
+    left: 96%;
+}
+
+#period10{
+    height: 95%; 
+    background-color: rgb(48, 82, 4); 
+    left: 108%;
+}
+
+#labelContainter{
+    position: relative;
+    min-width: 30%;
+    max-width: 70%;
+}
+
+.label{
+    top: 0;
+    position: absolute;
+    font-size: 10px;
+    width: 100%;
+}
+
+.lineChart {
+    position: relative;
+    min-width: 30vw;
+    max-width: 81vw;
+    height: 2px;
+    background-color: rgba(0,0, 0, 0.1);
+    /* min-width: 30%;
+    max-width: 70%; */
+  }
+
+#line2{
+position: absolute;
+top: 32%;
+width: 100%;
+}
+
+#line3{
+position: absolute;
+top: 63%;
+width: 100%;
+}
+
+#line4{
+    position: absolute;
+    top: 47%;
+    width: 100%;  
+}
